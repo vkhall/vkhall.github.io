@@ -22,5 +22,5 @@
 * I enjoy spending time with family and friends.
 
 ## Websites I Recommend
-	*[Amazon](https://www.amazon.com) - Amazon is a great place to shop online and have items delivered quickly. 
-	*[YouTube](https://www.youtube.com) - YouTube is a great site for all types of videos such as travel, music, vlogs, and education. 
+	* [Amazon](https://www.amazon.com) - Amazon is a great place to shop online and have items delivered quickly. 
+	* [YouTube](https://www.youtube.com) - YouTube is a great site for all types of videos such as travel, music, vlogs, and education. 
