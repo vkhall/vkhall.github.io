@@ -2,12 +2,12 @@
 erDiagram 
 	PRODUCT }o--o| SALE : creates
 	PRODUCT {
-		string Product_ID PK
-		string Inventory_ID FK
-		string Shoe_Type
-		string Shoe_Style
-		string Color
-		string Size
+		Product_ID PK
+		Inventory_ID FK
+		Shoe_Type
+		Shoe_Style
+		Color
+		Size
 	}
 	CUSTOMER ||--|{ SALE : buys
 	CUSTOMER {
