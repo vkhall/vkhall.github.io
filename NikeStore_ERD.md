@@ -2,28 +2,28 @@
 erDiagram 
 	PRODUCT }o--o| CUSTOMER : to
 	PRODUCT {
-		Product_ID PK
-		Inventory_ID FK
-		Shoe_Type
-		Shoe_Style
-		Color
-		Size
+		string Product_ID PK
+		string Inventory_ID FK
+		string Shoe_Type
+		string Shoe_Style
+		string Color
+		string Size
 	}
 	CUSTOMER ||--|{ SALE : to
 	CUSTOMER {
-		Customer_ID PK
-		FirstName
-		LastName
-		Phone_Number
+		string Customer_ID PK
+		string FirstName
+		string LastName
+		string Phone_Number
 	}
 	SALE |o--|{ PRODUCT : to
 	SALE {
-		Receipt_ID PK
-		Date
-		Product_ID FK
+		string Receipt_ID PK
+		string Date
+		string Product_ID FK
 	}
 	INVENTORY {
-		Inventory_ID PK
-		Product_ID FK
+		string Inventory_ID PK
+		string Product_ID FK
 	} 
 ``` 
