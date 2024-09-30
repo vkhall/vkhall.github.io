@@ -1,6 +1,6 @@
 ```mermaid 
 erDiagram 
-	PRODUCT |o--o| SALES:
+	PRODUCT |o--o| SALES:to
 	PRODUCT {
 		PK Product_ID
 		FK Inventory_ID
@@ -9,7 +9,7 @@ erDiagram
 		Color
 		Size
 	}
-	CUSTOMER ||--|{ SALES:
+	CUSTOMER ||--|{ SALES:to
 	CUSTOMER {
 		PK Customer_ID
 		FirstName
@@ -22,7 +22,7 @@ erDiagram
 		Date
 		FK Product_ID
 	}
-	INVENTORY |o--|{ PRODUCTS:
+	INVENTORY |o--|{ PRODUCTS:to
 	INVENTORY {
 		PK Inventory_ID
 		FK Product_ID
