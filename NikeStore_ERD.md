@@ -1,6 +1,6 @@
 ```mermaid 
 erDiagram 
-	PRODUCT }o--o| SALE : sold
+	PRODUCT }o--o| SALE : creates
 	PRODUCT {
 		string Product_ID PK
 		string Inventory_ID FK
