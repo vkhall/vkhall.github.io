@@ -8,20 +8,20 @@ erDiagram
 		Shoe_Style
 		Color
 		Size
-	} 
+	}, 
 	CUSTOMER ||--|{ SALES :
 	CUSTOMER {
 		PK Customer_ID
 		FirstName
 		LastName
 		Phone_Number
-	}
+	},
 	SALE
 	SALE {
 		PK Receipt_ID
 		Date
 		FK Product_ID
-	} 
+	}, 
 	INVENTORY |o--|{ PRODUCTS :
 	INVENTORY {
 		PK Inventory_ID
