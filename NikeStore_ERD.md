@@ -16,7 +16,7 @@ erDiagram
 		LastName
 		Phone_Number
 	}
-	SALE ||--|{ INVENTORY
+	SALE
 	SALE {
 		PK Receipt_ID
 		Date
